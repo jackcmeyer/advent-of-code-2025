@@ -6,8 +6,6 @@ def doTurn(turnInstruction: str):
     global password
     global pointer
 
-    previousPointer = pointer
-
     direction = turnInstruction[0].strip()
     distance = int(turnInstruction[1:])
 
